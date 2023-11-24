@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>themes</title>
+    <style>
+    body {
+        background-color: #233448;
+    }
+    .x {
+        background-color: #18bc9c;
+        margin: auto;
+        padding: 10px;
+        text-align: left;
+        font-size: 25px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+    h1{
+        font-size:50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:white;
+        text-align: center;
+    }
+    /* .container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px;4
+    } */
+    .container{
+        width:90%;
+        padding:20px;
+        margin:100px auto;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .box{
+        width:300px;
+        margin: 0 10px;
+        box-shadow: 0 0 20px 2px rgba(0,0,0.1);
+        transition:0.5s;
+    }
+    .box img{
+        display: block;
+        width:100%;
+        border-radius: 5px;
+    }
+    .box:hover{
+        transform: scale(1.3);
+        /* z-index:1; */
+    }
+
+    p{
+        color: #fff;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="x">
+        <a style="padding-right: 40px; color: white" href="p2home.html">Home</a>
+        <a href="p3about.html" style="color: white">How to Play</a>
+    </div>
+    <h1>THEMES</h1>
+    <div class="container">
+        <div class="box">
+            <a href="pg1default.html" >
+                <img src="default.png" alt="This is a pic"  width="300" id="imgdef" >
+                <p>DEFAULT MODE</p>
+            </a>    
+        </div>
+        <div class="box">
+            <a href="pg2darkmode.html">
+                <img src="darkmode.png" alt="This is a pic" width="300" id="imgdark">
+                <p>DARK MODE</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="pg3doodle.html">
+                <img src="doodle.png" alt="this is a pic" width="300" id="imgdoodle">
+                <P>DOODLE MODE</P>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

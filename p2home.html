@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: #233448;
+            text-align: -webkit-center;
+        }
+        header{
+            background-color:#233448;
+            text-align: center;
+            font-size: 20px;
+            color:white;
+            margin:auto;
+            padding:30px;
+            
+        }
+        .x{
+            background-color:#18BC9C;
+            padding:10px;
+            text-align: left;
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-bottom:40px;
+        }
+        .footer{
+            background-color: white;
+            padding:10px;
+            text-align:left;
+            font-size: 20px;
+            margin-top: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           
+        }
+    
+
+    .item{
+
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        color: #fff;
+        background-color: #18BC9C;
+        padding: 10px 30px;
+        border: 2px solid #0066cc;
+        border-radius: 50px;
+        align-items: center;
+        width: 220px;
+        height: 70px;
+        margin:30px;
+    }
+
+    .item:hover{
+        transition : 100ms;
+        padding: 10px 50px;
+        background-color: #024e3d;
+        color: #fff;
+        }
+
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CONNECT-N</h1>
+        <h5>-just one more game</h5>
+        
+    </header>
+    <div class="x">
+        <a href="p2home.html" style="padding-right: 60px; padding-left:60px; color:white">Home</a>
+        <a href="p3about.html" style=color:white;>How to Play</a>
+    </div>
+    <button class="item" ><a href="pg1default.html"> New Game</a></button><br>
+    <button class="item" ><a href="p4themes.html">Themes</a></button><br>
+    <button onclick="exit()" class="item" id="exitbutton">Exit</button>
+
+    
+    <footer>
+        <div class="footer">
+            <span  style="padding-left: 40px; ">Contact: 7983864891</span><br>
+            <span style="padding-left: 40px; ">Email: 3432neelam@gmail.com</span>
+        </div>
+        
+    </footer>
+    <script>
+        // document.getElementById('exitbutton').addEventListener('click', function() {
+            // Close the current window
+        // });
+        function exit(){
+            window.close();
+        }
+    </script>
+</body>
+</html>
